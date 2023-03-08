@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="project.css"> -->
+    <style>
+       @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+        *{
+margin: 0px;
+        }
+
+.a1{
+    color: black;
+    height: 300px;
+    width: 1370px;
+    text-align: center;
+    position: fid;
+    background-image: url(img.jpg);
+     overflow: hidden;
+}
+
+.c1{
+text-align: center;
+margin-right: 11.5%;
+margin-top: 10%;
+margin-left: 5%;
+}
+h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: monospace;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+    margin-right: 93px;
+    margin-top: 15px;
+    margin-left: 1%;
+}
+.ab{
+    padding: px;
+    font-size: 30px;
+    overflow: hidden;
+    margin-left: 25%;
+    position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+    
+}
+div1{
+    width: 200px; 
+    height: 200px;
+   background-color: #e5f8f6;
+    border: 1px solid black;
+    display: inline-block;
+    margin: 62px;
+    padding: 1px;
+    text-align: center;
+    overflow: hidden;
+    color: whitesmoke;
+    
+}
+img{
+    height: 100px;
+    width: 100px;
+}
+body{
+	height: 100vh;
+	width: 100%;   
+}
+
+.container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 20px 100px;
+}
+
+.container:after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background-color: 
+	background-size: cover;
+	
+	z-index: -1;
+}
+.contact-box{
+	max-width: 850px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background-color: #fff;
+	box-shadow: 0px 0px 19px 5px rgba(0,0,0,0.19);
+}
+
+.left{
+	background-size: cover;
+	height: 100%;
+}
+
+.right{
+	padding: 25px 40px;
+}
+
+h2{
+	position: relative;
+	padding: 0 0 10px;
+	margin-bottom: 10px;
+}
+
+h2:after{
+	content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 50px;
+    border-radius: 2px;
+    background-color: #001275;
+}
+
+.field{
+	width: 100%;
+	border: 2px solid rgba(0, 0, 0, 0);
+	outline: none;
+	background-color: rgba(230, 230, 230, 0.6);
+	padding: 0.5rem 1rem;
+	font-size: 1.1rem;
+	margin-bottom: 22px;
+	transition: .3s;
+}
+
+.field:hover{
+	background-color: rgba(0, 0, 0, 0.1);
+}
+
+textarea{
+	min-height: 150px;
+}
+
+.btn{
+	width: 100%;
+	padding: 0.5rem 1rem;
+	background-color: #001275;
+	color: #fff;
+	font-size: 1.1rem;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	transition: .3s;
+}
+
+.btn:hover{
+    background-color: lightblue;
+}
+
+.field:focus{
+    border: 2px solid rgba(30,85,250,0.47);
+    background-color: #fff;
+}
+
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
+}
+@import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
+
+.site-footer
+{
+background-color:#26272b;
+padding:45px 0 20px;
+font-size:15px;
+line-height:24px;
+color:#737373;
+}
+.site-footer hr
+{
+border-top-color:#bbb;
+opacity:0.5
+}
+.site-footer hr.small
+{
+margin:20px 0
+}
+.site-footer h6
+{
+color:#fff;
+font-size:16px;
+text-transform:uppercase;
+margin-top:5px;
+letter-spacing:2px
+}
+.site-footer a
+{
+color:#737373;
+}
+.site-footer a:hover
+{
+color:#3366cc;
+text-decoration:none;
+}
+.footer-links
+{
+padding-left:0;
+list-style:none
+}
+.footer-links li
+{
+display:block
+}
+.footer-links a
+{
+color:#737373
+}
+.footer-links a:active,.footer-links a:focus,.footer-links a:hover
+{
+color:#3366cc;
+text-decoration:none;
+}
+.footer-links.inline li
+{
+display:inline-block
+}
+.site-footer .social-icons
+{
+text-align:right
+}
+.site-footer .social-icons a
+{
+width:40px;
+height:40px;
+line-height:40px;
+margin-left:6px;
+margin-right:0;
+border-radius:100%;
+background-color:#33353d
+}
+.copyright-text
+{
+margin:0
+}
+@media (max-width:991px)
+{
+.site-footer [class^=col-]
+{
+  margin-bottom:30px
+}
+}
+@media (max-width:767px)
+{
+.site-footer
+{
+  padding-bottom:0
+}
+.site-footer .copyright-text,.site-footer .social-icons
+{
+  text-align:center
+}
+}
+.social-icons
+{
+padding-left:0;
+margin-bottom:0;
+list-style:none
+}
+.social-icons li
+{
+display:inline-block;
+margin-bottom:4px
+}
+.social-icons li.title
+{
+margin-right:15px;
+text-transform:uppercase;
+color:#96a2b2;
+font-weight:700;
+font-size:13px
+}
+.social-icons a{
+background-color:#eceeef;
+color:#818a91;
+font-size:16px;
+display:inline-block;
+line-height:44px;
+width:44px;
+height:44px;
+text-align:center;
+margin-right:8px;
+border-radius:100%;
+-webkit-transition:all .2s linear;
+-o-transition:all .2s linear;
+transition:all .2s linear
+}
+.social-icons a:active,.social-icons a:focus,.social-icons a:hover
+{
+color:#fff;
+background-color:#29aafe
+}
+.social-icons.size-sm a
+{
+line-height:34px;
+height:34px;
+width:34px;
+font-size:14px
+}
+.social-icons a.facebook:hover
+{
+background-color:#3b5998
+}
+.social-icons a.twitter:hover
+{
+background-color:#00aced
+}
+.social-icons a.linkedin:hover
+{
+background-color: rgb(44, 160, 44)
+}
+.social-icons a.dribbble:hover
+{
+background-color:#df2b70
+}
+@media (max-width:767px)
+{
+.social-icons li.title
+{
+  display:block;
+  margin-right:0;
+  font-weight:600
+}
+}
+</style>
+</head>
+<body>
+    <div class="a1">
+    <h1 class="c1">CONTACT US</h1>
+    <h2 class="c2">Home > Contact</h2>
+    </div>
+    <h3 class="ab"><U>Contact our support team to 
+        know what you want</U></h3>
+        <!-- <div1> -->
+     <!-- <h4><br>Our Numbers</h4>
+     <img src="logo1.png">
+     <p>0384484034<br>
+        0900786017
+     </p> -->
+        <!-- </div1>
+
+        <div1>
+            
+            <h4><br>Email Address</h4>
+            <img src="logo2.png">
+            <p>@gmail.com
+            </p> -->
+               <!-- </div1>
+
+               <div1>
+                <h4><br>Our Location</h4>
+                <img src="logo3.png">
+                <p>
+                    north nazimabad
+                </p> -->
+                   <!-- </div1>
+
+                   <div1>
+                    <h4><br>Office Timings</h4>
+                    <img src="logo4.png">
+                    <p>Monday to saturday<br>
+                         9:30 to 11:30  
+                    </p> -->
+
+
+    </div1>
+
+    <div class="container">
+    <div class="contact-box">
+      <div class="left"><P> <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27773.748521116264!2d67.0418153!3d24.9406726!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb33f8014fe5943%3A0x11df7a65effb1ef6!2sNorth%20Nazimabad%20Town%2C%20Karachi%2C%20Karachi%20City%2C%20Sindh!5e1!3m2!1sen!2s!4v1672656588165!5m2!1sen!2s" width="420" height="510" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></P></div>
+      <div class="right">
+        <h2>Contact Us</h2>
+        <input type="text" class="field" placeholder="Your Name">
+        <input type="text" class="field" placeholder="Your Email">
+        <input type="text" class="field" placeholder="Phone">
+        <textarea placeholder="Message" class="field"></textarea>
+        <button class="btn">Send</button>
+      </div>
+    </div>
+    </div>
+<!-- Footer  -->
+<footer class="site-footer">
+	<div class="container">
+	  <div class="row">
+	    <div class="col-sm-12 col-md-6">
+	      <h6>About</h6>
+	      <p class="text-justify">"Dreamweaver" is a social enterprise which strives to empower artists and artisans. Dreamweaver aims to connect the unconnected artisans to the local and international markets by not only providing them with a market place but also marketing them in an effective way. Dreamweaver works for the revival of the dying crafts by fusing them with modern and marketable designs and by giving design consultation to the artisans. We, at Dreamweaver, consider artisans as one big family and reach out to them wherever they need us.
+      
+		
+		
+	    </div>
+      
+      
+	    <div class="col-xs-6 col-md-3">
+	      <h6>Quick Links</h6>
+	      <ul class="footer-links">
+		<li><a href="contactus.html">CONTACT US</a></li>
+		<li><a href="privacy policy.html">PRIVACY POLICY</a></li>
+		<li><a href="faqs.html">FAQS</a></li>
+		<li><a href="Terms and Condition.html">TERMS & CONDITIONS</a></li>
+		<li><a href="privacy policy.html">GALLERY</a></li>
+		<li><a href="faqs.html">SITE MAP</a></li>
+	      
+	      </ul>
+	    </div>
+	  </div>
+	  <hr>
+	</div>
+      
+	
+	
+	<div class="container">
+	  <div class="row">
+	    <div class="col-md-8 col-sm-6 col-xs-12">
+	      <p class="copyright-text">Copyright &copy; 2017 All Rights Reserved by 
+	   <a href="#">Scanfcode</a>.
+	      </p>
+	    </div>
+      
+	    <div class="col-md-4 col-sm-6 col-xs-12">
+	      <ul class="social-icons">
+		<li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
+		<li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
+		<li><a class="dribbble" href="#"><i class="fa fa-instagram"></i></a></li>
+		<li><a class="linkedin" href="#"><i class="fa fa-whatsapp"></i></a></li>   
+	      </ul>
+	    </div>
+	  </div>
+	</div>
+      </footer>
+</body>
+</html>
